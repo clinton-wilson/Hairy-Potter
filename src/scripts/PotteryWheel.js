@@ -2,7 +2,7 @@ let potteryObj = {
     id: 1
 }
 
-const makePottery = (shape, weight, height) => {
+export const makePottery = (shape, weight, height) => {
     potteryObj = {
         id: potteryObj.id + 1,
         shape: shape,
@@ -15,5 +15,3 @@ const makePottery = (shape, weight, height) => {
 
 
 console.log(potteryObj)
-
-export {makePottery}
