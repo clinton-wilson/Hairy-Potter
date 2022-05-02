@@ -1,5 +1,5 @@
 let potteryObj = {
-    id: 1
+    id: 0
 }
 
 export const makePottery = (shape, weight, height) => {
